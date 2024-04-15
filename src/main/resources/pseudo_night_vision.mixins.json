@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "survivalblock.pseudonightvision.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"client": [
+		"client.BackgroundRendererMixin",
+		"client.GameRendererMixin",
+		"client.LightmapTextureManagerMixin"
+	]
+}
